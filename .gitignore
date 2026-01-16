@@ -1,0 +1,15 @@
+# Terraform dosyalarini gizle
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# Mac sistem dosyalari
+.DS_Store
+
+# Python dosyalari
+__pycache__/
+*.pyc
